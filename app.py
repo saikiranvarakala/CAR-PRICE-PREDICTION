@@ -1,5 +1,6 @@
 from flask import Flask, render_template,jsonify,request
 import pandas as pd
+import pickle
 
 app = Flask(__name__)
 
